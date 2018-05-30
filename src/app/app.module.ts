@@ -10,6 +10,9 @@ import { SectionComponent } from './section.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
+import { AppTestComponentComponent } from './app-test-component/app-test-component.component';
+import { HighlightDirective } from './home/highlight.directive';
+import { ContactInfoComponent } from './contact/contact-info/contact-info.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { ContactComponent } from './contact/contact.component';
     SectionComponent,
     HomeComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    AppTestComponentComponent,
+    HighlightDirective,
+    ContactInfoComponent
   ],
   imports: [
     BrowserModule,
